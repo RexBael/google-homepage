@@ -2,16 +2,26 @@
 <html>
 	<head>
 		<title>Google</title>
-		<link type:"text/css" rel:"stylesheet" href:"stylesheet.css" />
+		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
 	</head>
 	<body>
-		<img src="logo.png" />
-		<form action="#" method="GET">
-			<input type="text" name="searchbox"><br>
-			<input type="submit" name="search_btn" value="Google Search">
-			<input type="submit" name="lucky_btn" value="I'm Feeling Lucky">
-		</form>
-	
+		<div class="navbar">
+			<ul>
+				<li><a href="#" id="sign_in">Sign in</a></li>
+				<li><a href="#">Apps</a></li>
+				<li><a href="#">Images</a></li>
+				<li><a href="#">Gmail</a></li>
+				<li><a href="#">+You</a></li>
+			</ul>
+		</div>
+		<div class="search">
+			<img src="logo.png" />
+			<form action="#" method="GET">
+				<input id="searchbox" type="text" name="searchbox" size="80"><br>
+				<input class="btn_l" type="submit" name="search_btn" value="Google Search">
+				<input class="btn_r" type="submit" name="lucky_btn" value="I'm Feeling Lucky">
+			</form>
+		</div>
 	</body>
 
 
